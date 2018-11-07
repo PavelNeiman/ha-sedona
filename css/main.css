@@ -7,4 +7,64 @@
 
 body{
     background-color: wheat;
+    padding: 0px 45px;
+}
+
+.header__logo{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left: 47%;
+
+}
+
+.navigation-menu{
+    background-color: #fff;
+}
+
+.navigation__list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+
+.navigation__link{
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+ }
+
+
+ /* 1st block */
+ .about-sedona{
+     background-image: url(../img/background-photo-sedona.jpg);
+     background-size: cover;
+     padding-top: 70px;
+     height: 100vh;
+     text-align: center;
+ }
+
+ .about-sedona__welcome{
+     font-size: 125px;
+     text-transform:uppercase;
+     color:grey;
+ }
+
+.about-sedona_title{
+    font-size: 150px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+.about-sedona__text, {
+    font-size: 33px;
+    color: brown;
+}
+
+.about-sedona__grand{
+    font-size: 35px;
+    color: #fff;
 }
