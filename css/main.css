@@ -3,6 +3,8 @@
     padding: 0;
     list-style: none;
     text-decoration:none;
+    font-family: 'Fira Sans', sans-serif;
+    
 }
 
 body{
@@ -70,7 +72,22 @@ body{
 }
 
 
+/* **** */
 
+.reason__subtitle{
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: 30px 0px;
+}
+
+.reason__slogan{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+/* **** */
 
 /* 2nd block + list item */
 
@@ -80,10 +97,50 @@ body{
 
 }
 
+.pluses-list{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pluses__icon{
+    margin-bottom: 25px;
+}
+
+.pluses__list-item{
+    padding: 65px 0px 65px;
+    flex-grow: 1;
+    width: 400px;
+    min-height: 300px;
+    box-sizing: border-box;
 
 
+}
 
+.pluses__number{
+    margin-bottom: 30px;
+}
 
+.list-item--white{
+    background-color: white;
+}
+
+.pluses__subtitle{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.list-item--img{
+    background-image: url(../img/openrange.jpg);
+    background-size: cover;
+    height: 102px;
+    width: 800px;
+    flex-grow: 2;
+}
+
+.item--color{
+    background-color: #81b3d2;
+}
 
 
 /* footer block*/
